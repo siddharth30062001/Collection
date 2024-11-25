@@ -6,25 +6,25 @@ public class ListIteration {
     
     public static void main(String[] args) {
         
-        ArrayList<String> l=new ArrayList<>();
-        l.add("Shubam");
-        l.add("Rahul");
-        l.add("Rohan");
-        l.add("Ashish");
+        ArrayList<String> list=new ArrayList<>();
+        list.add("Shubam");
+        list.add("Rahul");
+        list.add("Rohan");
+        list.add("Ashish");
         /*Iterator<String> i=l.iterator();
         while(i.hasNext()){                    //Iterting list using Iterator
             System.out.println(i.next());
         }*/
         //System.out.println(l);              //Direct Iteration
-        System.out.println(l.get(1));
+        System.out.println(list.get(1));
         System.out.println("---");
-        l.set(1,"Vipul");
-        for (String string : l) {
+        list.set(1,"Vipul");
+        for (String string : list) {
             System.out.println(string);             //Iterating via FOREACH loop
         }
         System.out.println("---");
         System.out.println("Sorting the elements");
-        Collections.sort(l);
-        System.out.println(l);
+        Collections.sort(list);
+        System.out.println(list);
     }
 }

@@ -13,6 +13,7 @@ class Student implements Comparable<Student>{
         this.age=age;
     }
 
+    //data arrange in ascending oder on the basis of age
     @Override
     public int compareTo(Student obj){
         return Integer.compare(age, obj.age);

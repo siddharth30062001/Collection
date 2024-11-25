@@ -15,6 +15,6 @@ public class TreeSetImpl {
 
         System.out.println("First element: "+set.pollFirst());
         System.out.println("First element: "+set.pollLast());
-        System.out.println("Elements in the Set: "+set);
+        
     }
 }

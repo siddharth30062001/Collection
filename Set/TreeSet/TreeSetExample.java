@@ -21,8 +21,6 @@ public class TreeSetExample {
         System.out.println("First element: "+numbers.first());
         System.out.println("Last element: "+numbers.last());
 
-        System.out.println("SubSet(10,40): "+numbers.subSet(10, 40));
-
         System.out.println("Higher then 10: "+numbers.higher(10));
         System.out.println("Lower then 10: "+numbers.lower(10));
 

@@ -14,6 +14,7 @@ public class HashSetCollections {
         set.add("Four");
         set.add(null);
         set.add("Five");
+        
         System.out.println("HashSet elements are: "+set);
         System.out.println("-----");
         Iterator<String> itr=set.iterator();

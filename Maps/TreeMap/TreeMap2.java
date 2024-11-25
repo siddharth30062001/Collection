@@ -15,10 +15,6 @@ public class TreeMap2 {
 
         System.out.println("Reverse Traversing: "+tm.descendingMap());
 
-        System.out.println("Head Map: "+tm.headMap(102,true));
-
-        System.out.println("Tail Map: "+tm.tailMap(102,true));
-
-        System.out.println("Sub-Map: "+tm.subMap(101,true,103,true));
+    
     }
 }

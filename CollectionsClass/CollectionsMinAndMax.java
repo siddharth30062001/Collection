@@ -25,7 +25,5 @@ public class CollectionsMinAndMax {
         System.out.println("Minimum Element: "+Collections.min(l));
         System.out.println("Maximum Element: "+Collections.max(l));
 
-        List<Integer> syncList=Collections.synchronizedList(l);
-        System.out.println("Synchronized List: "+syncList);
     }
 }

@@ -20,7 +20,6 @@ public class TreeSetSimple {
 
         System.out.println("Initial Set: "+set);
         System.out.println("Reverse Order: "+set.descendingSet());
-        System.out.println("Head Set: "+set.headSet(30, true));
-        System.out.println("Sub Set: "+set.subSet(18,false, 30,true));
+    
     }
 }

@@ -15,11 +15,11 @@ public class StudentMainClass {
         al.add(s2);
         al.add(s3);
 
-        /*Iterator<Student> itr=al.iterator();
-        while(itr.hasNext()){
-            Student st=(Student)itr.next();
-            System.out.println(st.name+" "+st.age+" "+st.rollNo);
-        }*/
+        // Iterator<Student> itr=al.iterator();
+        // while(itr.hasNext()){
+        //     Student st=(Student)itr.next();
+        //     System.out.println(st.name+" "+st.age+" "+st.rollNo);
+        // }
 
         for (Student student : al) {
             System.out.println(student.name+" "+student.age+" "+student.rollNo);
